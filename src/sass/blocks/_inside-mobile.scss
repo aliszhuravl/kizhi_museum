@@ -98,9 +98,39 @@
     max-width: 100%;
     font-size: 14px;
   }
+  .search_library {
+    .dropdown__list {
+      width: max-content;
+      height: auto;
+    }
+    .dropdown {
+      width: -webkit-fill-available;
+    }
+    .dropdown__text {
+      width: -webkit-fill-available;
+      min-width: 100%;
+      max-width: 100%;
+    }
+    .box_searchform__item {
+      width: -webkit-fill-available;
+    }
+  }
 }
 
 @media (max-width: 640px) {
+  .books_tile .gallery_tile__item {
+    display: flex;
+    flex-direction: column;
+  }
+  .search_library .dropdown__list {
+    width: auto;
+    height: auto;
+    li {
+      font-size: 16px;
+      padding: 10px 20px;
+      height: auto;
+    }
+  }
   .acc_gray .accordion__content {
     padding: 20px;
       p {

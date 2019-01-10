@@ -104,3 +104,19 @@ ul li::before, ol li::before {
     width: 170px;
   }
 }
+
+.search_library {
+  .dropdown__list {
+    width: max-content;
+    height: auto;
+  }
+  .dropdown {
+    width: -webkit-fill-available;
+  }
+  .dropdown__text {
+    width: -webkit-fill-available;
+  }
+  .box_searchform__item {
+    width: -webkit-fill-available;
+  }
+}

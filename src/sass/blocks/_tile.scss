@@ -266,6 +266,19 @@
   }
 }
 
+.library_tile {
+    .gallery_tile__item {
+      width: calc(50% - 16px);
+      margin-right: 32px;
+      &:nth-child(3n+3) {
+        margin-right: 32px;
+      }
+        &:nth-child(2n) {
+          margin-right: 0;
+        }
+    }
+}
+
 .no_bottom {
   margin-bottom: 0 !important;
 }
@@ -288,4 +301,30 @@
 
 .sb_red {
   background-color: #e2907a;
+}
+
+.books_tile {
+  .gallery_tile__item {
+    display: flex;
+    flex-direction: row;
+      .gallery_tile__item_text {
+        padding: 30px 30px 30px 15px;
+        .desc {
+          p {
+            opacity: 1 !important;
+            margin-bottom: 7px;
+          }
+        }
+      }
+      .gallery_tile__item_img {
+        background-color: $color-red;
+        min-width: 180px;
+        height: 240px;
+          img {
+            object-fit: cover;
+            height: 100%;
+            width: fit-content;
+          }
+      }
+  }
 }
