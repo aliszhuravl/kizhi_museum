@@ -224,4 +224,10 @@
   .social {
     margin-bottom: 20px;
   }
+  .box_island_map .island_map .map_legend {
+    top: auto;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }

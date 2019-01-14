@@ -115,9 +115,26 @@
       width: -webkit-fill-available;
     }
   }
+  .box_description {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 640px) {
+
+  .box_book {
+    img {
+      width: 100%;
+    }
+  }
+
+  .acc_book {
+    .accordion__content {
+      width: 100%;
+      padding-right: 10px;
+    }
+  }
+
   .books_tile .gallery_tile__item {
     display: flex;
     flex-direction: column;

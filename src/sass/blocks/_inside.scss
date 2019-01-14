@@ -605,3 +605,17 @@
 .text_black {
   margin-top: 25px;
 }
+
+.box_description {
+  margin-left: 60px;
+  .docs_box__item {
+    border: 1px dashed $color-red !important;
+    margin-bottom: 25px;
+  }
+  p {
+    margin-bottom: 15px;
+  }
+  .btn {
+    margin-bottom: 40px;
+  }
+}
