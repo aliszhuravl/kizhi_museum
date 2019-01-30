@@ -1,0 +1,58 @@
+.table_header {
+  width: 100%;
+  margin-bottom: 25px;
+    .table_name {
+      font-size: 24px;
+      font-family: $font-family_bold;
+    }
+}
+
+.half-table {
+  table {
+    width: calc(50% - 16px);
+  }
+}
+
+.page_price {
+  .price_table {
+    margin-bottom: 0;
+      .table_container {
+        height: 450px;
+        overflow-y: auto;
+      }
+  }
+  .table_duo {
+    display: flex;
+    width: 100%;
+      .pt_box {
+        width: 50%;
+        margin-right: 32px;
+          p {
+            margin-bottom: 15px;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
+          table {
+            width: auto;
+          }
+      }
+  }
+}
+
+.cat_name {
+  min-width: 320px;
+}
+
+.table_next {
+  margin-bottom: 50px !important;
+}
+
+.p_desc {
+  margin-top: 25px;
+  max-width: 70%;
+}
+
+.bcb_p {
+  margin-bottom: 15px;
+}

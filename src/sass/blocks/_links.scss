@@ -1,0 +1,169 @@
+.link {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  transition: color, .2s;
+  color: $color-gray-60;
+
+  &:hover {
+    color: $color-blue-50;
+  }
+
+  &:focus,
+  &:active {
+    outline: 0;
+    text-decoration: none;
+  }
+}
+
+.link_active {
+  color: $color-blue-50;
+}
+
+.link_light {
+  color: $color-blue-10;
+
+  &:hover {
+    color: $color-blue-50;
+  }
+}
+
+.link_dark {
+  color: $font-color_dark;
+
+  &:hover {
+    color: $color-blue-50;
+  }
+}
+
+.link_blue {
+  color: $color-blue-50;
+  
+  &:hover {
+    color: $color-blue-60;
+  }
+}
+
+.link_underlined {
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.link_white {
+  color: #fff;
+  transition: all 0.3s;
+  text-decoration: none;
+  &:hover {
+    color: #fff;
+    opacity: 0.3;
+  }
+}
+
+.link_base {
+  color: $color-red;
+  border-bottom: 1px dashed $color-red;
+  transition: all 0.3s;
+  text-decoration: none;
+  &:hover {
+    border-color: transparent;
+  }
+}
+
+.link_black {
+  color: #000;
+  border-color: #000;
+    &:hover {
+      color: $color-red;
+      border-bottom: 1px dashed $color-red;
+    }
+}
+
+.link_arrow {
+  position: relative;
+  transition: all 0.3s;
+  margin-right: 15px;
+  &:after {
+    position: absolute;
+    transition: all 0.3s;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-right: 1px solid $color-red;
+    border-top: 1px solid $color-red;
+    transform: rotate(45deg);
+    top: 6px;
+    right: -12px;
+  }
+    &:hover {
+      &:after {
+        right: -17px;
+      }
+    }
+}
+
+.arr_reverse {
+  margin-left: 15px;
+  &:after {
+    transform: rotate(-135deg);
+    right: auto;
+    left: -12px;
+  }
+  &:hover {
+    &:after {
+      left: -17px;
+    }
+  }
+}
+
+.link_down {
+  &:after {
+    transform: rotate(135deg);
+  }
+  &:hover {
+    &:after {
+      top: 10px;
+      right: -12px;
+    }
+  }
+}
+
+.link_classic {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s;
+  &:hover {
+    color: $color-red;
+  }
+}
+
+.simple_red {
+  color: $color-red;
+  text-decoration: none;
+  transition: all 0.3s;
+  border-bottom: 1px dashed transparent;
+    &:hover {
+      border-bottom: 1px dashed $color-red;
+    }
+}
+
+.no_border {
+  &:hover {
+    opacity: 0.5;
+    border-bottom: 1px dashed transparent;
+  }
+}
+
+.hightlight {
+  &:hover {
+    .ico {
+      svg {
+        .st1 {
+          fill: $color-red !important;
+        }
+      }
+    }
+  }
+}
