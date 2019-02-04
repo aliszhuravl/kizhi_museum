@@ -1,0 +1,31 @@
+.acc_icotexts {
+  width: 100%;
+  .phones_block {
+    margin-bottom: 15px;
+    .ico_text {
+      margin-left: 40px;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.person_status {
+  font-size: 14px !important;
+  margin-bottom: 5px !important;
+}
+
+
+@media (max-width: 640px) {
+  .contacts_bar {
+    .box_text__left {
+      margin-bottom: 0;
+    }
+  }
+  .contacts_acc {
+    .accordion__text {
+      width: 70%;
+    }
+  }
+}

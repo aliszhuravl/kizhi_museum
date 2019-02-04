@@ -1795,6 +1795,7 @@ h4 {
 
 .ico_text .ico img {
 	display: block;
+	width: 17px;
 	min-width: 17px;
 	min-height: 17px;
 }
@@ -4932,6 +4933,27 @@ ol li::before {
 	margin-right: 5px;
 }
 
+.acc_icotexts {
+	width: 100%;
+}
+
+.acc_icotexts .phones_block {
+	margin-bottom: 15px;
+}
+
+.acc_icotexts .phones_block .ico_text {
+	margin-left: 40px;
+}
+
+.acc_icotexts .phones_block .ico_text:first-child {
+	margin-left: 0;
+}
+
+.person_status {
+	font-size: 14px !important;
+	margin-bottom: 5px !important;
+}
+
 .clearfix:before,
 .clearfix:after {
 	display: table;
@@ -6030,6 +6052,14 @@ h1 {
 .other_elems .right,
 .other_elems .left {
 	max-width: 50%;
+}
+
+.contacts_bar .box_text__left {
+	margin-bottom: 0;
+}
+
+.contacts_acc .accordion__text {
+	width: 70%;
 }
 
 }
