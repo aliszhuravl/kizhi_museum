@@ -3171,7 +3171,8 @@ h4 {
 }
 
 .box_container__left {
-	width: -webkit-fill-available;
+	width: inherit;
+	max-width: -webkit-fill-available;
 	margin-right: 40px;
 }
 

@@ -137,7 +137,8 @@
     display: flex;
     align-items: flex-start;
     &__left {
-      width: -webkit-fill-available;
+      max-width: -webkit-fill-available;
+      width: inherit;
       margin-right: 40px;
       .box_accordion {
         width: 100%;
