@@ -178,3 +178,25 @@
   visibility: visible;
   transform: translateX(0%);
 }
+
+
+.btn_shop {
+  background-color: $color-red;
+  height: auto;
+  color: #fff;
+    .shop-inner {
+      display: flex;
+        .left {
+          margin-right: 15px;
+        }
+    }
+    .cart {
+      width: 50px;
+    }
+  .link_cart {
+    transition: all 0.3s;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

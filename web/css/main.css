@@ -2894,6 +2894,32 @@ h4 {
 	transform: translateX(0%);
 }
 
+.btn_shop {
+	height: auto;
+	color: #fff;
+	background-color: #852735;
+}
+
+.btn_shop .shop-inner {
+	display: flex;
+}
+
+.btn_shop .shop-inner .left {
+	margin-right: 15px;
+}
+
+.btn_shop .cart {
+	width: 50px;
+}
+
+.btn_shop .link_cart {
+	transition: all .3s;
+}
+
+.btn_shop .link_cart:hover {
+	opacity: .7;
+}
+
 .accordion {
 	width: 100%;
 	border-bottom: 1px solid #aaa;
