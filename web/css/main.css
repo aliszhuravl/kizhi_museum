@@ -3683,6 +3683,14 @@ h4 {
 	margin-bottom: 40px;
 }
 
+.d_tour {
+	border: 1px dashed #852735;
+}
+
+.d_tour img {
+	display: block;
+}
+
 .dropdown {
 	position: relative;
 }

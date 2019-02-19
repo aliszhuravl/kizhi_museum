@@ -620,3 +620,9 @@
     margin-bottom: 40px;
   }
 }
+.d_tour {
+  border: 1px dashed $color-red;
+    img {
+      display: block;
+    }
+  }
