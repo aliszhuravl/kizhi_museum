@@ -4989,6 +4989,43 @@ ol li::before {
 	margin-bottom: 5px !important;
 }
 
+.header-shop {
+	background-color: #fff;
+}
+
+.header-shop .header_top__left .logo .st0 {
+	fill: #7a1f2e;
+}
+
+.header-shop .link_black {
+	transition: all .2s;
+	color: #000;
+	border-bottom: transparent;
+}
+
+.header-shop .link_black:hover {
+	color: #852735;
+	border-bottom: transparent;
+}
+
+.header-shop .black {
+	transition: all .2s;
+	color: #000;
+}
+
+.header-shop .black:hover {
+	color: #852735;
+}
+
+.header-shop .link_lang {
+	color: #000;
+}
+
+.header-shop .search_a svg {
+	width: 15px;
+	height: 15px;
+}
+
 .clearfix:before,
 .clearfix:after {
 	display: table;

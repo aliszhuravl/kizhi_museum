@@ -1,0 +1,32 @@
+.header-shop {
+  background-color: #fff;
+  .header_top__left .logo .st0 {
+    fill: #7A1F2E;
+  }
+  .link_black {
+    color: #000;
+    transition: all 0.2s;
+    border-bottom: transparent;
+      &:hover {
+        border-bottom: transparent;
+        color: $color-red;
+      }
+  }
+  .black {
+    color: #000;
+    transition: all 0.2s;
+      &:hover {
+        color: $color-red;
+      }
+  }
+  .link_lang {
+    color: #000;
+  }
+  .search_a{
+    svg {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
