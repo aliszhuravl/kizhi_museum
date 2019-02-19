@@ -3717,6 +3717,62 @@ h4 {
 	display: block;
 }
 
+div.tags_cloud a.abc {
+	font-size: 36px;
+	font-weight: normal;
+	margin: 3px;
+	padding: 2px;
+	border: 0 solid #a03030;
+}
+
+.tags_cloud {
+	height: auto;
+	min-height: 400px;
+}
+
+.tags_cloud a {
+	text-decoration: none;
+	color: #600;
+}
+
+div.tags_cloud a:hover,
+div.tags_cloud a.active {
+	color: white;
+	background: #a03030;
+}
+
+div.tags_cloud {
+	display: flex;
+	clear: both;
+	max-width: 85%;
+	margin: 2em auto;
+	text-align: center;
+	align-items: baseline;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.m_items_tile .tile__item {
+	padding: 25px;
+}
+
+.m_items_tile .tile__item .tile__textbox {
+	text-align: left;
+}
+
+.m_items_tile .tile__item .tile__textbox .mi_text {
+	margin-bottom: 10px;
+}
+
+.mi_title {
+	margin-bottom: 10px;
+}
+
+.item_m_img {
+	display: block;
+	width: 100%;
+}
+
 .dropdown {
 	position: relative;
 }
