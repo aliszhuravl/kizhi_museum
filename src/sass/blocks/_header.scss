@@ -95,11 +95,31 @@
 .slide_one {
   background-image: url('../img/s1.jpg');
   background-repeat: no-repeat;
-  background-size: 120% 100%;
+  background-size: cover;
 }
 
 .slide_two {
   background-image: url('../img/s2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide_three {
+   background-image: url('../img/f3.jpg');
+   background-repeat: no-repeat;
+  background-position: right center;
+   background-size: cover;
+ }
+
+.slide_four {
+  background-image: url('../img/f4.jpg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+}
+
+.slide_five {
+  background-image: url('../img/f5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
